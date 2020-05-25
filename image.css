@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica;
+    background-color: #00008b33;
+}
+
+.overview{
+    position: relative;
+    height: 100%;
+    width: 85%;
+    background-color: #0000ff08;
+}
+.logo{
+    left: 25px;
+    z-index: 5;
+    position: absolute;
+    top: 2px;
+}
+.header{
+    position: fixed;
+    background-color: #787aa3;
+    height: 50px;
+    width: 100%;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+}
+
+.search{
+    margin-top: 13px;
+    position: absolute;
+    right: 30px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    float: left;
+    height: 30px;
+    background: #787aa3;
+    top: 49px;
+    z-index: 5;
+    left: 0px;
+}
+
+.designlinks{
+    left: 15px;
+    position: absolute;
+    list-style-type: none;
+    padding: inherit;
+    margin-top: 150px;
+}
+
+.designlinks li{
+    padding-bottom: 10px;
+}
+
+.designlinks a{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+.head{
+    position: absolute;
+    right: 550px;
+    color: aliceblue;
+    width: fit-content;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.imagesec{
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    left: 140px;
+}
+
+.imagesec img{
+    height:300px;
+    width:300px;
+    margin: 2px 4px 2px 8px;
+    padding: 5px;
+    border-radius: 20px; 
+}
+
+.imagesec img:hover{
+    color: lightblue;
+    cursor: pointer;
+    box-shadow: 2px 2px 16px 2px #787aa3;;
+}
+
+.high{
+    position: absolute;
+    left: -4px;
+    width: 124px;
+    height: 30px;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 130px;
+    pointer-events: none;
+    border-bottom: 2px solid aliceblue;
+}
+
+.another{
+    position: fixed;
+    top: 53px;
+    list-style: none;
+    left: 158px;
+    z-index: 5;
+    opacity: 0.5;
+}
+.another:hover{
+    opacity: 1;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    width: 200px;
+    border: aliceblue;
+    color: aliceblue;
+    background: #a6abc7;
+    font-weight: bolder;
+}
+input:focus{
+    color: aliceblue;
+}
+button{
+    padding: 7px;
+    border-radius: 3px;
+    border: aliceblue;
+    background: #a6abc7;
+}
+
+button:focus{
+    color:aliceblue;
+}
